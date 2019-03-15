@@ -24,3 +24,8 @@ Notes
 The purpose of this repo is to demonstrate how to write applications with libphptrace, this is by no means a complete application.
 
 Please, don't deploy this, or make pull requests, use it only as inspiration to write your own applications with libphptrace.
+
+Watch It
+--------
+
+Here is a [terminal cast](https://asciinema.org/a/SGHICn2KuRrqF5ZB6RsriXYTa)
