@@ -28,4 +28,4 @@ Please, don't deploy this, or make pull requests, use it only as inspiration to 
 Watch It
 --------
 
-Here is a [terminal cast](https://asciinema.org/a/SGHICn2KuRrqF5ZB6RsriXYTa)
+Here is a (crappy, short) [terminal cast](https://asciinema.org/a/SGHICn2KuRrqF5ZB6RsriXYTa)
