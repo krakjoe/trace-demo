@@ -49,7 +49,7 @@ static void php_trace_demo_function_free(zval *zv) {
     free(map);
 }
 
-static void php_trace_demo_instruction_free(zval *zv) {
+static void php_trace_demo_line_free(zval *zv) {
     free(Z_PTR_P(zv));
 }
 
@@ -94,7 +94,7 @@ static php_trace_action_result_t php_trace_demo_frame(php_trace_context_t *conte
         };
         
         zend_hash_init(
-            &mapped.lines, 32, NULL, NULL, 1);
+            &mapped.lines, 32, NULL, php_trace_demo_line_free, 1);
         
         map = zend_hash_index_add_mem(&ctx->maps, (zend_ulong) frame->func, &mapped, sizeof(php_trace_demo_function_t));
     }
