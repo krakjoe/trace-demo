@@ -16,7 +16,7 @@ Building
 Executing
 ---------
 
-    ./main [PID]
+    ./demo [PID]
     
 Notes
 -----
